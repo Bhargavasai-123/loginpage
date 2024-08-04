@@ -1,0 +1,98 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:"poppins",sans-serif;
+
+}
+body{
+    display: flex;
+    justify-content: center;
+    background: url('C:/Users/user/Desktop/backimage.jpg') no-repeat;
+    align-items: center;
+    min-height: 100vh;
+    background-size: cover;
+    
+}
+.div1{
+    width:420px;
+   
+   border: 2px solid rgba(255,255,255, .2);
+    color:white;
+    border-radius:18px;
+    padding:30px 40px;
+    background:transparent();
+}
+.div1 h1{
+    font-size: 36px;
+    text-align: center;
+}
+.div1 .div2{
+    width:100%;
+    height:50px;
+    
+    margin:30px 0;
+
+
+}
+.div2 input{
+    width:100%;
+    height:100%;
+    background:transparent;
+    border:none;
+    outline:none;
+    border:2px solid rgba(255,255,255, .2);
+    border-radius:48px;
+    padding:20px 45px 20px 20px;
+}
+.div2 input::placeholder{
+    color:white;
+}
+.div3{
+    display:flex;
+    justify-content: space-between;
+    font-size:14.5px;
+    margin: -15px 0px 15px;
+}
+.div3 label input{
+    accent-color: white;
+    margin-right:3px;
+}
+.div3 a{
+    color: white;
+    text-decoration: none;
+}
+.div3 a:hover{
+    text-decoration: underline;
+}
+.div1 .div4{
+    width:100%;
+    height:45px;
+    background:white;
+    border: none;
+    outline:none;
+    border-radius:40px;
+    box-shadow:0 0 10px rgba(0 0 0 -1);
+    cursor:pointer;
+    font-size:16px;
+    color:#333;
+    font-weight:600;
+}
+.div1 .div5{
+    font-size:14.5px;
+    text-align:center;
+    margin-top :20px;
+
+
+}
+.div5 p a{
+    color:white;
+    text-decoration:none;
+    font-weight:600;
+}
+.div5 p a:hover{
+    text-decoration: underline;
+}
+
+
+
